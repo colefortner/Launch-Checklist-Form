@@ -126,7 +126,7 @@ function init () {
       
       if(mic && pilot && copilot){
          launchStatus.innerHTML = "Shuttle is ready for launch";
-         faultyItems.style.visibility = "hidden";
+         faultyItems.style.visibility = "visible";
          launchStatus.style.color = "green";
       } else if(!pilot || !copilot) {
          launchStatus.innerHTML = "Awaiting Information Before Launch";
